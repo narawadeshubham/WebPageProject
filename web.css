@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 357px;
+
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .radio-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    /* width: 100%; */
+  }
+
+  .container {
+    justify-content: flex-start;
+  }
+}
+
+.radio-item1 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.selectedColor {
+  background-color: rgb(218, 241, 220);
+  border-color: rgb(27, 238, 108);
+}
+
+.bundleSave {
+  font-size: 18px;
+  margin-bottom: -1px;
+  color: rgb(37, 165, 65);
+}
+
+.dayShipping {
+  font-size: 14px;
+  margin-right: 130px;
+  margin-top: 2px;
+  color: rgb(37, 165, 65);
+}
+
+.PoweredPumper {
+  margin-top: -6px;
+  margin-left: 204px;
+  font-size: 11px;
+}
+.cart {
+  background-color: rgb(37, 165, 65);
+  width: 354px;
+}
+
+.totalDdk{
+  font-size: 15px;
+            margin-top: 2px;
+}
+
+.mainTotalDdk{
+  margin-left: 150px;
+  margin-top: -31px;
+}
+
+.DdkSecondBox{
+  text-decoration: line-through;color: #ccc;   font-size: 12px; margin-top: 20px;
+}
+
+.mainDdkSecondBox{
+  margin-left: 5px;
+  margin-top: 31px;
+}
+
+.dropDownColor{
+  margin-top: 18px;
+  margin-left: -22px;
+}
+
+/* #footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#headline{
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 12px;
+} */
+
+/* 
+.hr-lines::before{
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 313px;
+  position: absolute;
+  top: 47px;
+  left: 518px;
+  background-color: rgb(121, 96, 96);
+} */

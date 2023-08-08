@@ -1,1 +1,128 @@
-<h1>shubham</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Web Page</title>
+        <script src="web.js"></script>
+        <link rel="stylesheet" href="web.css">
+    </head>
+    <body>
+        <div style="margin-top: -24px;" id="mainCointainer">
+            <div style="text-align: center;">
+                <h6 class="bundleSave" >Bundle & Save</h6>
+            </div>
+            <div class="container" id="box1">
+                <div class="box ">
+                    <div class="radio-item">
+                        <input type="radio" name="radio" id="radio1" value="195.00"
+                            onclick="changeBoxValue()">
+                        <div style="margin-left: 10px;">
+                            <p style="margin-top: 23px;">1 Pair</p>
+                            <p style="margin-top: -9px;"><b>DDK 195.00</b></p>
+                        </div>
+                        <div style=" margin-left: 110px;">
+                            <p><b>50% OFF</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="box2">
+                <div class="box">
+                    <div class="radio-item">
+                        <input type="radio" style="margin-top: -75px;"
+                            name="radio" id="radio2" value="345.00" onclick="changeBoxValue()">
+                        <div style="margin-left: 22px;">
+                            <p style="margin-top: 23px;">2
+                                Pair</p>
+                            <p style="margin-top: -9px;"><b>DDK 345.00</b></p>
+                            <p>Size</p>
+
+                            <label for="cars" style="margin-left: -28px;">#1</label>
+                            <select name="cars" id="cars" style="width: 60px;">
+                                <option value="S">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                            </select>
+                            <div style="margin-top: 10px;">
+                                <label for="cars" style="margin-left: -28px;">#2</label>
+                                <select name="cars" id="cars" style="width: 60px;">
+                                    <option value="S">S</option>
+                                    <option value="m">M</option>
+                                    <option value="l">L</option>
+                                    <option value="xl">XL</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mainDdkSecondBox">
+                            <p class="DdkSecondBox"
+                                >DKK
+                                195.00</p>
+                            <div class="dropDownColor">
+                                <p>Color</p>
+                                <select name="cars" id="cars">
+                                    <option value="Red">Red</option>
+                                    <option value="Green">Green</option>
+                                    <option value="Yello">Yello</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                                <div style="margin-top: 10px;">
+                                    <select name="cars" id="cars">
+                                        <option value="Red">Red</option>
+                                        <option value="Green">Green</option>
+                                        <option value="Yello">Yello</option>
+                                        <option value="Black">Black</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: -54px;">
+                            <p style="color: rgb(37, 165, 65);">Most Popular</p>
+                            <p><b>40% OFF</b></p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="box3">
+                <div class="box">
+                    <div class="radio-item">
+                        <input type="radio" name="radio" id="radio3" value="528.00"
+                            onclick="changeBoxValue()">
+                        <div style="margin-left: 10px;">
+                            <p style="margin-top: 23px;">3 Pair</p>
+                            <p style="margin-top: -9px;"><b>DDK 528.00</b></p>
+                        </div>
+                        <div style=" margin-left: 110px;">
+                            <p><b>60% OFF</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <p class="dayShipping"> Free 2 Day Shipping</p>
+            </div>
+
+            <div class="container mainTotalDdk"  >
+                <div id="price-display">Total: DDK 0.00</div>
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="box cart"
+                    >
+                    <div class="radio-item1">
+                        <p style="color:rgb(244, 247, 245);">+ Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <p class="PoweredPumper">@ Powered by pumper</p>
+            </div>
+        </div>
+    </body>
+</html>
