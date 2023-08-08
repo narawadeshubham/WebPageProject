@@ -99,28 +99,3 @@ body {
   margin-top: 18px;
   margin-left: -22px;
 }
-
-/* #footer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 25px;
-}
-
-#headline{
-  font-size: 16px;
-  font-weight: 700;
-  padding-bottom: 12px;
-} */
-
-/* 
-.hr-lines::before{
-  content: " ";
-  display: block;
-  height: 2px;
-  width: 313px;
-  position: absolute;
-  top: 47px;
-  left: 518px;
-  background-color: rgb(121, 96, 96);
-} */
